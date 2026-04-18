@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的进步空间</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 2px solid #4CAF50;
+        }
+        h1 {
+            color: #2E7D32;
+        }
+        .tagline {
+            color: #666;
+            font-style: italic;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的进步空间</h1>
+        <p class="tagline">记录学习，分享成长，迈向AI</p>
+    </header>
+
+    <section>
+        <h2>关于我</h2>
+        <p>你好！我是一个正在学习编程和人工智能的小白。这个网站将用来记录我的学习历程、技术博客和项目作品。</p>
+        <p>我的目标：未来转向AI方向，这里就是我的起点和作品集。</p>
+    </section>
+
+    <section>
+        <h2>近期计划</h2>
+        <ul>
+            <li>学习Python基础</li>
+            <li>完成第一个机器学习小项目</li>
+            <li>每周更新一篇学习笔记</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>联系与更多</h2>
+        <p>📧 邮箱：你的邮箱（待更新）</p>
+        <p>💻 GitHub：<a href="https://github.com/你的用户名" target="_blank">访问我的GitHub</a>（请将链接中的“你的用户名”替换成你实际的GitHub用户名）</p>
+    </section>
+
+    <footer>
+        <p>© 2025 我的进步空间 | 由 GitHub Pages 强力驱动</p>
+        <p>最后更新于：<span id="current-date"></span></p>
+    </footer>
+
+    <script>
+        // 自动更新当前日期
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('zh-CN');
+        // 简单的控制台问候
+        console.log('欢迎检查我的网站代码！这是一个开始。');
+    </script>
+</body>
+</html>
